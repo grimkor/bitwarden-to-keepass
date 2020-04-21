@@ -1,0 +1,4 @@
+.vscode
+.idea
+*.kdbx
+__pycache__
