@@ -22,6 +22,10 @@ Following environment variables are available to use and the script will auto-in
 
 If any of the above environment variables are missing when the script is run it will ask for user to input those values when first required.
 
-##PENDING
+## PENDING
 * Option to create database to export to.
 * Add environment variable `BW_SERVER` for self-hosted solutions.
+
+## Acknowledgements
+* [Bitwarden Command-line Interface](https://github.com/bitwarden/cli)
+* [KeePass keepassxc-cli](https://github.com/keepassxreboot/keepassxc/blob/develop/share/docs/man/keepassxc-cli.1)
