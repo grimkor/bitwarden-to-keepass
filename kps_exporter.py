@@ -17,7 +17,6 @@ class KpsImporter:
     def __init__(self):
         self.file: str or None = environ.get('KEEPASS_FILE')
         self.password: str or None = environ.get('KEEPASS_PASSWORD')
-        print(self.file, self.password)
         if self.file and self.password and exists(self.file):
             print('KpsImporter: File and password found from environment variables.')
 

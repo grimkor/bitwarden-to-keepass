@@ -17,14 +17,14 @@ Following environment variables are available to use and the script will auto-in
 |:-------------|-------------|
 |`BW_USERNAME` | Bitwarden account username/email address|
 |`BW_PASSWORD` | Bitwarden account password|
+|`BW_SERVER` | Bitwarden server location (default set to bitwarden.com)|
 |`KEEPASS_FILE`| Location of Keepass database file |
 |`KEEPASS_PASSWORD`| Password to unlock KeePass database file|
 
 If any of the above environment variables are missing when the script is run it will ask for user to input those values when first required.
 
 ## PENDING
-* Option to create database to export to.
-* Add environment variable `BW_SERVER` for self-hosted solutions.
+* Option to create database to export to if KeepPass file not found.
 * Add checks and validation notices for missing packages
 * Setup script
 
