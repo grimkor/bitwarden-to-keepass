@@ -25,6 +25,8 @@ If any of the above environment variables are missing when the script is run it 
 ## PENDING
 * Option to create database to export to.
 * Add environment variable `BW_SERVER` for self-hosted solutions.
+* Add checks and validation notices for missing packages
+* Setup script
 
 ## Acknowledgements
 * [Bitwarden Command-line Interface](https://github.com/bitwarden/cli)
